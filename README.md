@@ -56,17 +56,17 @@ You have a [detailed mock](https://bloominstituteoftechnology.github.io/W_S7M2_P
 
 (If you don't need any hand holding at all, feel free to ignore the suggestions. For an even harder challenge, delete the contents of the App component and implement the form completely from scratch. The only real requirement is that **the functionality of your form matches that of the mock.**)
 
-1. We need a state to track the values of the form. This state could be an object with `fname`, `lname` and `bio` keys.
+👉1. We need a state to track the values of the form. This state could be an object with `fname`, `lname` and `bio` keys.
 
-2. Make your inputs and textarea be controlled, by having them take their values from the state we just created.
+👉2. Make your inputs and textarea be controlled, by having them take their values from the state we just created by wiring the form to these values
 
-3. Implement the `onChange` handler and wire it to the inputs. You have further hints in the comments.
+👉3. Implement the `onChange` handler and wire it to the inputs. You have further hints in the comments.
 
-4. Implement the `submitNewMember` to create a new member using the form values in state.
+👉4. Implement the `submitNewMember` to create a new member using the form values in state.
 
-5. Have the `onSubmit` handler just invoke the `submitNewMember` unconditionally, and wire it to the form. We will implement edit later.
+👉5. Have the `onSubmit` handler just invoke the `submitNewMember` unconditionally, and wire it to the form. We will implement edit later.
 
-6. Submitting new members should work now!
+👉6. Submitting new members should work now!
 
 #### 👉 TASK 2 - Implement EDITING an existing Team Member
 
